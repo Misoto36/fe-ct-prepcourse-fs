@@ -6,9 +6,9 @@ function esVocal(letra) {
   const volcales = ["a","e","i","o","u","A","E","I","O","U"]
 
     if (volcales.includes(letra)){
-      console.log("Es Vocal")
+      return "Es vocal"
     }else{
-    console.log("Dato incorrecto")
+     return "Dato incorrecto"
     }
 }
 

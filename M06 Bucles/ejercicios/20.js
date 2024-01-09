@@ -6,9 +6,7 @@ function sumarHastaNConBreak(n) {
   let sum = 0
   for(let i = 1; i <= n; i++){  
     sum += i
-    if (sum > 100){
-      break 
-    }
+    if (sum > 100)break;   
     
   }
   return sum

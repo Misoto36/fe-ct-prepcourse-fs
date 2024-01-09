@@ -6,6 +6,7 @@ function esPositivoOInferiorA10(a) {
   if (a > 0 || a < 10){
     return true
   }
+  return false
 }
 
 module.exports = esPositivoOInferiorA10;

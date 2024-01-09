@@ -10,6 +10,9 @@ function productoEntreNúmeros(a, b) {
 
   for (let i = a; i <= b; i++){
     producto *= i
+    if(producto == -0){
+      producto = 0
+    }
   }
 
   return producto

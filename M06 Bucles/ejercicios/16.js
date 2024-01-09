@@ -20,7 +20,7 @@ function saludo(idioma) {
       break;
 
     default: 
-     return undefined
+     return "Hola!"
   } 
 }
 

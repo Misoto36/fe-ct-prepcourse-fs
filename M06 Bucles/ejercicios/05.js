@@ -5,7 +5,7 @@ function esVerdadero(valor) {
   if(valor){
     return "Soy verdadero"
   }
-  return "Soy falso "
+  return "Soy falso"
 }
 
 module.exports = esVerdadero;
